@@ -1,1 +1,1 @@
-import '@components/translations-service/dynamodb'
+import './components/translations-service/dynamodb'

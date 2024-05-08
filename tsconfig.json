@@ -19,8 +19,5 @@
     },
     "files": [
         "index.ts"
-    ],
-    "ts-node": {
-        "require": ["y]
-    }
+    ]
 }

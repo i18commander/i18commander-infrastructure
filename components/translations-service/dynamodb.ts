@@ -1,5 +1,5 @@
 import * as aws from "@pulumi/aws";
-import {config} from "@resources";
+import {config} from "../../resources";
 
 const TABLE_NAME = 'translations' as const
 const PROJECT_IDENTIFIER_HASH_KEY = 'ProjectIdentifier' as const
