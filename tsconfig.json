@@ -13,11 +13,14 @@
         "noImplicitReturns": true,
         "forceConsistentCasingInFileNames": true,
         "paths": {
-            "@resources": ["resources/*"],
-            "@components": ["components/*"]
+            "@resources/*": ["./resources/*"],
+            "@components/*": ["./components/*"]
         }
     },
     "files": [
         "index.ts"
-    ]
+    ],
+    "ts-node": {
+        "require": ["./utils/registerTsPathAliases"]
+    },
 }

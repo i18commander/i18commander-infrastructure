@@ -2,13 +2,20 @@
     "name": "i18commander-infrastructure",
     "main": "index.ts",
     "devDependencies": {
+        "@types/minimist": "^1.2.5",
         "@types/node": "^18",
+        "glob": "^10.3.12",
+        "minimist": "^1.2.8",
         "tsconfig-paths": "^4.2.0"
     },
     "dependencies": {
         "@pulumi/aws": "^6.0.0",
         "@pulumi/awsx": "^2.0.2",
         "@pulumi/pulumi": "^3.113.0",
+        "ts-node": "10.9.2",
         "typescript": "^5.0.0"
+    },
+    "resolutions": {
+        "ts-node": "10.9.2"
     }
 }
